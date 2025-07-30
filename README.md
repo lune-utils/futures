@@ -5,15 +5,6 @@ finished computation like.
 
 This design is inspired by the Futures crate in Rust.
 
-> [!IMPORTANT]
-> After almost two years of being the oldest Futures implementation on Wally,
-> Luau Futures v2.0.0 has released, with several key changes.
->
-> Importantly, the Wally scope has been changed to `yetanotherclown/luau-futures`.
-> If you are still using the v1.x.x Future library make sure to update your `wally.toml` to upgrade.
->
-> You can find out more [here](https://github.com/YetAnotherClown/luau-futures/releases/latest).
-
 ## Basic Use
 
 Creating a future is very simple:
