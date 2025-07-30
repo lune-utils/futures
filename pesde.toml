@@ -1,0 +1,14 @@
+name = "lune_utils/futures"
+version = "0.1.0"
+description = "Rust-like futures for Luau"
+authors = ["0xJWLabs <hi@0xjwlabs.dev>"]
+repository = "https://github.com/lune-utils/futures"
+license = "MIT"
+
+[target]
+environment = "luau"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[indices]
+default = "https://github.com/pesde-pkg/index"

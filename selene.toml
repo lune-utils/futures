@@ -1,0 +1,4 @@
+std = "luau"
+
+[rules]
+global_usage = "allow"
